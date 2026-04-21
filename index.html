@@ -463,7 +463,7 @@ footer a{color:var(--terracotta);text-decoration:none}
         </div>
       </div>
     </div>
-    <form class="cform" action="https://formspree.io/f/mdaywayo" method="POST">
+    <form class="cform" action="https://formspree.io/f/mdaywayo" method="POST" id="contactForm">
       <p style="font-size:1rem;font-weight:700;color:var(--text);margin-bottom:0.5rem">Send me a message</p>
       <p style="font-size:0.85rem;color:var(--muted);margin-bottom:0.5rem">I typically respond within 24 hours.</p>
       <input type="text" name="name" placeholder="Your name" required/>
@@ -472,6 +472,11 @@ footer a{color:var(--terracotta);text-decoration:none}
       <textarea name="message" placeholder="Tell me a bit about your business and what's eating your time..."></textarea>
       <button type="submit">Send Message</button>
     </form>
+    <div id="thankYou" style="display:none;background:var(--sage-light);border:1px solid var(--sage);border-radius:10px;padding:3rem 2rem;text-align:center">
+      <div style="font-size:2.5rem;margin-bottom:1rem">🎉</div>
+      <h3 style="font-size:1.3rem;font-weight:700;color:var(--sage-dark);margin-bottom:0.75rem">Message received!</h3>
+      <p style="font-size:0.95rem;color:var(--muted);line-height:1.8">Thank you for reaching out! I'll get back to you within 24 hours. In the meantime, feel free to <a href="https://calendly.com/eroceliecris16/30min" style="color:var(--terracotta);font-weight:700">book a discovery call</a> directly.</p>
+    </div>
   </div>
 </section>
 
