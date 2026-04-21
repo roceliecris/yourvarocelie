@@ -463,15 +463,15 @@ footer a{color:var(--terracotta);text-decoration:none}
         </div>
       </div>
     </div>
-    <div class="cform">
+    <form class="cform" action="https://formspree.io/f/mdaywayo" method="POST">
       <p style="font-size:1rem;font-weight:700;color:var(--text);margin-bottom:0.5rem">Send me a message</p>
       <p style="font-size:0.85rem;color:var(--muted);margin-bottom:0.5rem">I typically respond within 24 hours.</p>
-      <input type="text" placeholder="Your name"/>
-      <input type="email" placeholder="Your email"/>
-      <input type="text" placeholder="What's your biggest challenge right now?"/>
-      <textarea placeholder="Tell me a bit about your business and what's eating your time..."></textarea>
-      <button type="button">Send Message</button>
-    </div>
+      <input type="text" name="name" placeholder="Your name" required/>
+      <input type="email" name="email" placeholder="Your email" required/>
+      <input type="text" name="challenge" placeholder="What's your biggest challenge right now?"/>
+      <textarea name="message" placeholder="Tell me a bit about your business and what's eating your time..."></textarea>
+      <button type="submit">Send Message</button>
+    </form>
   </div>
 </section>
 
